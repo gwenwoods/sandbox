@@ -2,6 +2,15 @@ package datastructure.search;
 
 public class BinarySearch {
 
+    /**
+     * Search a given element in an array.
+     * 
+     * @param array
+     *            the array to be searched
+     * @param target
+     *            the target we want to search
+     * @return the array index of the target element. If target can not be found, return -1.
+     */
     public static int search(int[] array, int target) {
 
         int startIndex = 0;
