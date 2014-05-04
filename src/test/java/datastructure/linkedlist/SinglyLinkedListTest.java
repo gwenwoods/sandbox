@@ -1,9 +1,8 @@
-package datastructure.search.linkedlist;
+package datastructure.linkedlist;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import linkedlist.SinglyLinkedList;
 
 /**
  * Unit test for simple App.
