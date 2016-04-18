@@ -24,11 +24,11 @@ public class LongestSubstringWithoutRepeatChar {
 		for (int i = 0; i < strlen; i++) {
 			// i : substring starting from i
 			int currentMaxLen = 1;
-			Set<String> charSet = new HashSet<String>();
-			charSet.add(String.valueOf(s.charAt(i)));
+			Set<Character> charSet = new HashSet<Character>();
+			charSet.add(s.charAt(i));
 			for (int j = i + 1; j < strlen; j++) {
 				// find lenMat[i][j] from lenMat[i][j-1]
-				String currChar = String.valueOf(s.charAt(j));
+				Character currChar = s.charAt(j);
 				if (charSet.contains(currChar)) {
 					//lenMat[i][j] = lenMat[i][j - 1];
 					// no more longer substring starting from i
